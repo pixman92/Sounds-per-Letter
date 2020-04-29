@@ -1,17 +1,6 @@
 window.onload = ()=>{
   var alphabet =   ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
-
-    if(localStorage.getItem('savedText')){
-        document.getElementById('toBeParsed').value = localStorage.getItem('savedText')
-    }
-
-    document.getElementById('parseMe').addEventListener('click', ()=>{
-        localStoreText();
-        splitMe(document.getElementById('toBeParsed').value);
-    });
-
-
 //   var soundPath = './Sounds/Sound-Effects/shortSounds/';
 //   var arrayOfSounds = ["AirGunDrill_S08IN.25.wav", "ArrowImpactHuman_S08WA.4.4", "BloodGutsSpill_S08HO.3", "BulletFlyBy_S08WA.18.wav", "BulletFlyBy_S08WA.22.wav", "CatMeow_S08AN.44.wav", "DropSingleDrip_S08WR.47.wav", "DropSingleDrip_S08WR.49.wav", "FireballBurst_S08FI.28.wav", "FleshStab_S08HO.100.wav", "GolfClubSwing_S08SP.410.wav", "HumanGrunt_S08HU.271.wav", "HumanGrunt_S08HU.286.wav", "HumanKiss_S08HU.312.wav", "HumanSigh_S08HU.455.wav", "HumanSlurp_S08HU.465.wav", "ImpactGlass_S08IM.303.wav", "ImpactHumanBody_S08IM.327.wav", "ImpactHumanHit_S08IM.330.wav", "ImpactHumanSmack_S08IM.336.wav", "PinballBumper_S08SP.564.wav", "PinballBumper_S08SP.566.wav", "PREL_HIT WARBLE_PO01.238.wav", "SciFiLaser_S08SF.357.wav", "SciFiWhoosh_S08SF.1684.wav", "SemiTruckHorn_S08IN.866.wav"];
 
@@ -215,21 +204,19 @@ function playMeNow(letter){
 
 //========================================
 var splitStr=[];
-async function  splitMe(stringMe) {
-    stringMe = stringMe.toLowerCase();
+function  splitMe(stringMe) {
     splitStr = stringMe.split("");
 
     console.log('splitStr', splitStr);
-    for(var i=0; i<splitStr.length; i++){
-        await wait(750).then(()=>{});
-        playMeNow(splitStr[i]);
-        
-    }
     
 }
 
-function localStoreText(){
-    localStorage.setItem("savedText", document.getElementById('toBeParsed').value);
+async function slowed(){
+    for(var i=0; i<splitStr.length; i++){
+        await wait(1000).then(()=>{}
+        playMeNow(splitStr[i]);
+        
+    }
 }
 
 

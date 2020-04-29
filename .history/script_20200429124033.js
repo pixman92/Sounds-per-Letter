@@ -3,13 +3,8 @@ window.onload = ()=>{
 
 
     if(localStorage.getItem('savedText')){
-        document.getElementById('toBeParsed').value = localStorage.getItem('savedText')
+        document.getElementById('savedText').value = 
     }
-
-    document.getElementById('parseMe').addEventListener('click', ()=>{
-        localStoreText();
-        splitMe(document.getElementById('toBeParsed').value);
-    });
 
 
 //   var soundPath = './Sounds/Sound-Effects/shortSounds/';
@@ -216,7 +211,6 @@ function playMeNow(letter){
 //========================================
 var splitStr=[];
 async function  splitMe(stringMe) {
-    stringMe = stringMe.toLowerCase();
     splitStr = stringMe.split("");
 
     console.log('splitStr', splitStr);

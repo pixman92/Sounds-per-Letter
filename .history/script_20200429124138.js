@@ -6,10 +6,7 @@ window.onload = ()=>{
         document.getElementById('toBeParsed').value = localStorage.getItem('savedText')
     }
 
-    document.getElementById('parseMe').addEventListener('click', ()=>{
-        localStoreText();
-        splitMe(document.getElementById('toBeParsed').value);
-    });
+    document.getElementById()
 
 
 //   var soundPath = './Sounds/Sound-Effects/shortSounds/';
@@ -216,7 +213,6 @@ function playMeNow(letter){
 //========================================
 var splitStr=[];
 async function  splitMe(stringMe) {
-    stringMe = stringMe.toLowerCase();
     splitStr = stringMe.split("");
 
     console.log('splitStr', splitStr);

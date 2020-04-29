@@ -8,7 +8,7 @@ window.onload = ()=>{
 
     document.getElementById('parseMe').addEventListener('click', ()=>{
         localStoreText();
-        splitMe(document.getElementById('toBeParsed').value);
+        split
     });
 
 
@@ -216,7 +216,6 @@ function playMeNow(letter){
 //========================================
 var splitStr=[];
 async function  splitMe(stringMe) {
-    stringMe = stringMe.toLowerCase();
     splitStr = stringMe.split("");
 
     console.log('splitStr', splitStr);

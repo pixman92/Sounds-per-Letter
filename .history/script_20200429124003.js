@@ -2,14 +2,7 @@ window.onload = ()=>{
   var alphabet =   ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
 
-    if(localStorage.getItem('savedText')){
-        document.getElementById('toBeParsed').value = localStorage.getItem('savedText')
-    }
-
-    document.getElementById('parseMe').addEventListener('click', ()=>{
-        localStoreText();
-        splitMe(document.getElementById('toBeParsed').value);
-    });
+    if()
 
 
 //   var soundPath = './Sounds/Sound-Effects/shortSounds/';
@@ -216,7 +209,6 @@ function playMeNow(letter){
 //========================================
 var splitStr=[];
 async function  splitMe(stringMe) {
-    stringMe = stringMe.toLowerCase();
     splitStr = stringMe.split("");
 
     console.log('splitStr', splitStr);

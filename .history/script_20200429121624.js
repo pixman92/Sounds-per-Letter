@@ -1,19 +1,8 @@
 window.onload = ()=>{
   var alphabet =   ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
-
-    if(localStorage.getItem('savedText')){
-        document.getElementById('toBeParsed').value = localStorage.getItem('savedText')
-    }
-
-    document.getElementById('parseMe').addEventListener('click', ()=>{
-        localStoreText();
-        splitMe(document.getElementById('toBeParsed').value);
-    });
-
-
-//   var soundPath = './Sounds/Sound-Effects/shortSounds/';
-//   var arrayOfSounds = ["AirGunDrill_S08IN.25.wav", "ArrowImpactHuman_S08WA.4.4", "BloodGutsSpill_S08HO.3", "BulletFlyBy_S08WA.18.wav", "BulletFlyBy_S08WA.22.wav", "CatMeow_S08AN.44.wav", "DropSingleDrip_S08WR.47.wav", "DropSingleDrip_S08WR.49.wav", "FireballBurst_S08FI.28.wav", "FleshStab_S08HO.100.wav", "GolfClubSwing_S08SP.410.wav", "HumanGrunt_S08HU.271.wav", "HumanGrunt_S08HU.286.wav", "HumanKiss_S08HU.312.wav", "HumanSigh_S08HU.455.wav", "HumanSlurp_S08HU.465.wav", "ImpactGlass_S08IM.303.wav", "ImpactHumanBody_S08IM.327.wav", "ImpactHumanHit_S08IM.330.wav", "ImpactHumanSmack_S08IM.336.wav", "PinballBumper_S08SP.564.wav", "PinballBumper_S08SP.566.wav", "PREL_HIT WARBLE_PO01.238.wav", "SciFiLaser_S08SF.357.wav", "SciFiWhoosh_S08SF.1684.wav", "SemiTruckHorn_S08IN.866.wav"];
+  var soundPath = './Sounds/Sound-Effects/shortSounds/';
+  var arrayOfSounds = ["AirGunDrill_S08IN.25.wav", "ArrowImpactHuman_S08WA.4.4", "BloodGutsSpill_S08HO.3", "BulletFlyBy_S08WA.18.wav", "BulletFlyBy_S08WA.22.wav", "CatMeow_S08AN.44.wav", "DropSingleDrip_S08WR.47.wav", "DropSingleDrip_S08WR.49.wav", "FireballBurst_S08FI.28.wav", "FleshStab_S08HO.100.wav", "GolfClubSwing_S08SP.410.wav", "HumanGrunt_S08HU.271.wav", "HumanGrunt_S08HU.286.wav", "HumanKiss_S08HU.312.wav", "HumanSigh_S08HU.455.wav", "HumanSlurp_S08HU.465.wav", "ImpactGlass_S08IM.303.wav", "ImpactHumanBody_S08IM.327.wav", "ImpactHumanHit_S08IM.330.wav", "ImpactHumanSmack_S08IM.336.wav", "PinballBumper_S08SP.564.wav", "PinballBumper_S08SP.566.wav", "PREL_HIT WARBLE_PO01.238.wav", "SciFiLaser_S08SF.357.wav", "SciFiWhoosh_S08SF.1684.wav", "SemiTruckHorn_S08IN.866.wav"];
 
 
 }
@@ -22,9 +11,6 @@ autoUnlock = true;
 
 
 function playMeNow(letter){
-    var arrayOfSounds = ["AirGunDrill_S08IN.25.wav", "ArrowImpactHuman_S08WA.4.4", "BloodGutsSpill_S08HO.3", "BulletFlyBy_S08WA.18.wav", "BulletFlyBy_S08WA.22.wav", "CatMeow_S08AN.44.wav", "DropSingleDrip_S08WR.47.wav", "DropSingleDrip_S08WR.49.wav", "FireballBurst_S08FI.28.wav", "FleshStab_S08HO.100.wav", "GolfClubSwing_S08SP.410.wav", "HumanGrunt_S08HU.271.wav", "HumanGrunt_S08HU.286.wav", "HumanKiss_S08HU.312.wav", "HumanSigh_S08HU.455.wav", "HumanSlurp_S08HU.465.wav", "ImpactGlass_S08IM.303.wav", "ImpactHumanBody_S08IM.327.wav", "ImpactHumanHit_S08IM.330.wav", "ImpactHumanSmack_S08IM.336.wav", "PinballBumper_S08SP.564.wav", "PinballBumper_S08SP.566.wav", "PREL_HIT WARBLE_PO01.238.wav", "SciFiLaser_S08SF.357.wav", "SciFiWhoosh_S08SF.1684.wav", "SemiTruckHorn_S08IN.866.wav"];
-    var soundPath = './Sounds/Sound-Effects/shortSounds/';
-
     if(letter=='a'){
         var soundA = new Howl({
             src: [soundPath + arrayOfSounds[0]]
@@ -85,126 +71,126 @@ function playMeNow(letter){
     }
     if(letter=='i'){
         var soundI = new Howl({
-            src: [soundPath + arrayOfSounds[8]]
+            src: [soundPath + arrayOfSounds[]]
         });
         var idI = soundI.play();
 
     }
     if(letter=='j'){
         var soundJ = new Howl({
-            src: [soundPath + arrayOfSounds[9]]
+            src: [soundPath + arrayOfSounds[]]
         });
         var idJ = soundJ.play();
 
     }
     if(letter=='k'){
         var soundK = new Howl({
-            src: [soundPath + arrayOfSounds[10]]
+            src: [soundPath + arrayOfSounds[]]
         });
         var idK = soundK.play();
 
     }
     if(letter=='l'){
         var soundL = new Howl({
-            src: [soundPath + arrayOfSounds[11]]
+            src: [soundPath + arrayOfSounds[]]
         });
         var idL = soundL.play();
 
     }
     if(letter=='m'){
         var soundM = new Howl({
-            src: [soundPath + arrayOfSounds[12]]
+            src: [soundPath + arrayOfSounds[]]
         });
         var idM = soundM.play();
 
     }
     if(letter=='n'){
         var soundN = new Howl({
-            src: [soundPath + arrayOfSounds[13]]
+            src: [soundPath + arrayOfSounds[]]
         });
         var idN = soundN.play();
 
     }
     if(letter=='o'){
         var soundO = new Howl({
-            src: [soundPath + arrayOfSounds[14]]
+            src: [soundPath + arrayOfSounds[]]
         });
         var idO = soundO.play();
 
     }
     if(letter=='p'){
         var soundP = new Howl({
-            src: [soundPath + arrayOfSounds[15]]
+            src: [soundPath + arrayOfSounds[]]
         });
         var idP = soundP.play();
 
     }
     if(letter=='q'){
         var soundQ = new Howl({
-            src: [soundPath + arrayOfSounds[16]]
+            src: [soundPath + arrayOfSounds[]]
         });
         var idQ = soundQ.play();
 
     }
     if(letter=='r'){
         var soundR = new Howl({
-            src: [soundPath + arrayOfSounds[17]]
+            src: [soundPath + arrayOfSounds[]]
         });
         var idR = soundR.play();
 
     }
     if(letter=='s'){
         var soundS = new Howl({
-            src: [soundPath + arrayOfSounds[18]]
+            src: [soundPath + arrayOfSounds[]]
         });
         var idS = soundS.play();
 
     }
     if(letter=='t'){
         var soundT = new Howl({
-            src: [soundPath + arrayOfSounds[19]]
+            src: [soundPath + arrayOfSounds[]]
         });
         var idT = soundT.play();
 
     }
     if(letter=='u'){
         var soundU = new Howl({
-            src: [soundPath + arrayOfSounds[20]]
+            src: [soundPath + arrayOfSounds[]]
         });
         var idU = soundU.play();
 
     }
     if(letter=='v'){
         var soundV = new Howl({
-            src: [soundPath + arrayOfSounds[21]]
+            src: [soundPath + arrayOfSounds[]]
         });
         var idV = soundV.play();
 
     }
     if(letter=='w'){
         var soundW = new Howl({
-            src: [soundPath + arrayOfSounds[22]]
+            src: [soundPath + arrayOfSounds[]]
         });
         var idW = soundW.play();
 
     }
     if(letter=='x'){
         var soundX = new Howl({
-            src: [soundPath + arrayOfSounds[23]]
+            src: [soundPath + arrayOfSounds[]]
         });
         var idX = soundX.play();
 
     }
     if(letter=='y'){
         var soundY = new Howl({
-            src: [soundPath + arrayOfSounds[24]]
+            src: [soundPath + arrayOfSounds[]]
         });
         var idY = soundY.play();
 
     }
     if(letter=='z'){
         var soundZ = new Howl({
-            src: [soundPath + arrayOfSounds[25]]
+            src: []
         });
         var idZ = soundZ.play();
 
@@ -213,24 +199,13 @@ function playMeNow(letter){
 
 }
 
-//========================================
-var splitStr=[];
-async function  splitMe(stringMe) {
-    stringMe = stringMe.toLowerCase();
-    splitStr = stringMe.split("");
+// function play2(){
+//     var sound2 = new Howl({
+//         src:  ['./Sounds/Sound-Effects/AirGunDrill_S08IN.25.wav']
+//     });
 
-    console.log('splitStr', splitStr);
-    for(var i=0; i<splitStr.length; i++){
-        await wait(750).then(()=>{});
-        playMeNow(splitStr[i]);
-        
-    }
-    
-}
-
-function localStoreText(){
-    localStorage.setItem("savedText", document.getElementById('toBeParsed').value);
-}
+//     sound2.play();
+// }
 
 
 //=====================================================

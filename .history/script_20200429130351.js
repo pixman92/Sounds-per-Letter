@@ -216,7 +216,7 @@ function playMeNow(letter){
 //========================================
 var splitStr=[];
 async function  splitMe(stringMe) {
-    stringMe = stringMe.toLowerCase();
+    stringMe = stringMe.tol
     splitStr = stringMe.split("");
 
     console.log('splitStr', splitStr);
