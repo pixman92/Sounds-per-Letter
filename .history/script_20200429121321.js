@@ -13,7 +13,7 @@ autoUnlock = true;
 function playMeNow(letter){
     if(letter=='a'){
         var soundA = new Howl({
-            src: [soundPath + arrayOfSounds[0]]
+            src: [soundPath + arrayOfSounds[]]
         });
     
         var idA = soundA.play();
