@@ -87,17 +87,17 @@ function playMeNow(letter){
 
     }
     if(letter=='l'){
-        var soundL = new Howl({
+        var soundB = new Howl({
             src: ['./Sounds/Sound-Effects/shortSounds/ArrowImpactHuman_S08WA.4.4.wav']
         });
-        var idL = soundL.play();
+        var idB = soundB.play();
 
     }
     if(letter=='m'){
-        var soundM = new Howl({
+        var soundB = new Howl({
             src: ['./Sounds/Sound-Effects/shortSounds/ArrowImpactHuman_S08WA.4.4.wav']
         });
-        var idM = soundM.play();
+        var idB = soundB.play();
 
     }
     if(letter=='n'){

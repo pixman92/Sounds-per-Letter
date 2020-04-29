@@ -23,175 +23,175 @@ function playMeNow(letter){
 
     }
 
-    if(letter=='c'){
-        var soundC = new Howl({
-            src: ['./Sounds/Sound-Effects/shortSounds/BloodGutsSpill_S08HO.3.wav']
-        });
-        var idC = soundC.play();
-
-    }
-    if(letter=='d'){
-        var soundD = new Howl({
+    if(letter=='b'){
+        var soundB = new Howl({
             src: ['./Sounds/Sound-Effects/shortSounds/ArrowImpactHuman_S08WA.4.4.wav']
         });
-        var idD = soundD.play();
+        var idB = soundB.play();
 
     }
-    if(letter=='e'){
-        var soundE = new Howl({
+    if(letter=='b'){
+        var soundB = new Howl({
             src: ['./Sounds/Sound-Effects/shortSounds/ArrowImpactHuman_S08WA.4.4.wav']
         });
-        var idE = soundE.play();
+        var idB = soundB.play();
 
     }
-    if(letter=='f'){
-        var soundF = new Howl({
+    if(letter=='b'){
+        var soundB = new Howl({
             src: ['./Sounds/Sound-Effects/shortSounds/ArrowImpactHuman_S08WA.4.4.wav']
         });
-        var idF = soundF.play();
+        var idB = soundB.play();
 
     }
-    if(letter=='g'){
-        var soundG = new Howl({
+    if(letter=='b'){
+        var soundB = new Howl({
             src: ['./Sounds/Sound-Effects/shortSounds/ArrowImpactHuman_S08WA.4.4.wav']
         });
-        var idG = soundG.play();
+        var idB = soundB.play();
 
     }
-    if(letter=='h'){
-        var soundH = new Howl({
+    if(letter=='b'){
+        var soundB = new Howl({
             src: ['./Sounds/Sound-Effects/shortSounds/ArrowImpactHuman_S08WA.4.4.wav']
         });
-        var idH = soundH.play();
+        var idB = soundB.play();
 
     }
-    if(letter=='i'){
-        var soundI = new Howl({
+    if(letter=='b'){
+        var soundB = new Howl({
             src: ['./Sounds/Sound-Effects/shortSounds/ArrowImpactHuman_S08WA.4.4.wav']
         });
-        var idI = soundI.play();
+        var idB = soundB.play();
 
     }
-    if(letter=='j'){
-        var soundJ = new Howl({
+    if(letter=='b'){
+        var soundB = new Howl({
             src: ['./Sounds/Sound-Effects/shortSounds/ArrowImpactHuman_S08WA.4.4.wav']
         });
-        var idJ = soundJ.play();
+        var idB = soundB.play();
 
     }
-    if(letter=='k'){
-        var soundK = new Howl({
+    if(letter=='b'){
+        var soundB = new Howl({
             src: ['./Sounds/Sound-Effects/shortSounds/ArrowImpactHuman_S08WA.4.4.wav']
         });
-        var idK = soundK.play();
+        var idB = soundB.play();
 
     }
-    if(letter=='l'){
-        var soundL = new Howl({
+    if(letter=='b'){
+        var soundB = new Howl({
             src: ['./Sounds/Sound-Effects/shortSounds/ArrowImpactHuman_S08WA.4.4.wav']
         });
-        var idL = soundL.play();
+        var idB = soundB.play();
 
     }
-    if(letter=='m'){
-        var soundM = new Howl({
+    if(letter=='b'){
+        var soundB = new Howl({
             src: ['./Sounds/Sound-Effects/shortSounds/ArrowImpactHuman_S08WA.4.4.wav']
         });
-        var idM = soundM.play();
+        var idB = soundB.play();
 
     }
-    if(letter=='n'){
-        var soundN = new Howl({
+    if(letter=='b'){
+        var soundB = new Howl({
             src: ['./Sounds/Sound-Effects/shortSounds/ArrowImpactHuman_S08WA.4.4.wav']
         });
-        var idN = soundN.play();
+        var idB = soundB.play();
 
     }
-    if(letter=='o'){
-        var soundO = new Howl({
+    if(letter=='b'){
+        var soundB = new Howl({
             src: ['./Sounds/Sound-Effects/shortSounds/ArrowImpactHuman_S08WA.4.4.wav']
         });
-        var idO = soundO.play();
+        var idB = soundB.play();
 
     }
-    if(letter=='p'){
-        var soundP = new Howl({
+    if(letter=='b'){
+        var soundB = new Howl({
             src: ['./Sounds/Sound-Effects/shortSounds/ArrowImpactHuman_S08WA.4.4.wav']
         });
-        var idP = soundP.play();
+        var idB = soundB.play();
 
     }
-    if(letter=='q'){
-        var soundQ = new Howl({
+    if(letter=='b'){
+        var soundB = new Howl({
             src: ['./Sounds/Sound-Effects/shortSounds/ArrowImpactHuman_S08WA.4.4.wav']
         });
-        var idQ = soundQ.play();
+        var idB = soundB.play();
 
     }
-    if(letter=='r'){
-        var soundR = new Howl({
+    if(letter=='b'){
+        var soundB = new Howl({
             src: ['./Sounds/Sound-Effects/shortSounds/ArrowImpactHuman_S08WA.4.4.wav']
         });
-        var idR = soundR.play();
+        var idB = soundB.play();
 
     }
-    if(letter=='s'){
-        var soundS = new Howl({
+    if(letter=='b'){
+        var soundB = new Howl({
             src: ['./Sounds/Sound-Effects/shortSounds/ArrowImpactHuman_S08WA.4.4.wav']
         });
-        var idS = soundS.play();
+        var idB = soundB.play();
 
     }
-    if(letter=='t'){
-        var soundT = new Howl({
+    if(letter=='b'){
+        var soundB = new Howl({
             src: ['./Sounds/Sound-Effects/shortSounds/ArrowImpactHuman_S08WA.4.4.wav']
         });
-        var idT = soundT.play();
+        var idB = soundB.play();
 
     }
-    if(letter=='u'){
-        var soundU = new Howl({
+    if(letter=='b'){
+        var soundB = new Howl({
             src: ['./Sounds/Sound-Effects/shortSounds/ArrowImpactHuman_S08WA.4.4.wav']
         });
-        var idU = soundU.play();
+        var idB = soundB.play();
 
     }
-    if(letter=='v'){
-        var soundV = new Howl({
+    if(letter=='b'){
+        var soundB = new Howl({
             src: ['./Sounds/Sound-Effects/shortSounds/ArrowImpactHuman_S08WA.4.4.wav']
         });
-        var idV = soundV.play();
+        var idB = soundB.play();
 
     }
-    if(letter=='w'){
-        var soundW = new Howl({
+    if(letter=='b'){
+        var soundB = new Howl({
             src: ['./Sounds/Sound-Effects/shortSounds/ArrowImpactHuman_S08WA.4.4.wav']
         });
-        var idW = soundW.play();
+        var idB = soundB.play();
 
     }
-    if(letter=='x'){
-        var soundX = new Howl({
+    if(letter=='b'){
+        var soundB = new Howl({
             src: ['./Sounds/Sound-Effects/shortSounds/ArrowImpactHuman_S08WA.4.4.wav']
         });
-        var idX = soundX.play();
+        var idB = soundB.play();
 
     }
-    if(letter=='y'){
-        var soundY = new Howl({
+    if(letter=='b'){
+        var soundB = new Howl({
             src: ['./Sounds/Sound-Effects/shortSounds/ArrowImpactHuman_S08WA.4.4.wav']
         });
-        var idY = soundY.play();
+        var idB = soundB.play();
 
     }
-    if(letter=='z'){
-        var soundZ = new Howl({
+    if(letter=='b'){
+        var soundB = new Howl({
             src: ['./Sounds/Sound-Effects/shortSounds/ArrowImpactHuman_S08WA.4.4.wav']
         });
-        var idZ = soundZ.play();
+        var idB = soundB.play();
 
     }
+    if(letter=='b'){
+        var soundB = new Howl({
+            src: ['./Sounds/Sound-Effects/shortSounds/ArrowImpactHuman_S08WA.4.4.wav']
+        });
+        var idB = soundB.play();
 
+    }
+    
 
 }
 
